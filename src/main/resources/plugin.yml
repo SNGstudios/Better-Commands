@@ -1,0 +1,13 @@
+name: BetterCommands2
+version: 0.4
+main: net.bettercommands.BetterCommands2
+api-version: 1.19
+commands:
+  stop:
+    description: Better stop command
+    usage: /<command>
+    aliases: [betterstop]
+  BChelp:
+    description: Help for this plugin
+    usage: /<command>
+    aliases: [helpforBC]
