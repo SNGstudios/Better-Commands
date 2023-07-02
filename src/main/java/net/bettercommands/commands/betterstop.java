@@ -1,5 +1,6 @@
 package net.bettercommands.commands;
 
+import com.sun.java_cup.internal.runtime.Symbol;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
@@ -27,6 +28,7 @@ public class betterstop implements CommandExecutor{
         }
             else
             {
+                String argumentstring = args[0];
                 int timebeforestop = Integer.parseInt(args[0]);
                 String timebeforestopstring = Integer.toString(timebeforestop);
                 if(timebeforestop < 10000)
@@ -39,7 +41,7 @@ public class betterstop implements CommandExecutor{
                 }
                 else
                 {
-                    Command.broadcastCommandMessage(sender, "Server will be shutted down in" + timebeforestopstring + "ms!");
+                    Command.broadcastCommandMessage(sender, "Server will be shutted down in" + timebeforestopstring + " ms!");
                     try {
                         Thread.sleep(timebeforestop);
                     } catch (InterruptedException e) {

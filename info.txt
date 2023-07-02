@@ -1,0 +1,5 @@
+Current version: ver. 1.2 Universal
+Modrinth: https://modrinth.com/plugin/better-commands/
+Web: http://sngstudios.wz.cz
+Made in: InteliJ IDEA Comunity Edition
+Made by: vitekform (Founder of sngstudios)

@@ -1,5 +1,5 @@
 name: BetterCommands2
-version: 1.1
+version: 1.2
 main: net.bettercommands.BetterCommands2
 api-version: 1.19
 commands:
@@ -35,3 +35,16 @@ commands:
     description: Allows you to fly
     usage: /<command>
     aliases: [bcfly]
+  diceroll:
+    description: Rolls a dice
+    usage: /<command>
+    aliases:
+      - dice
+      - bcdice
+      - bcdiceroll
+  bet:
+    description: Bet a diamond!
+    usage: /<command>
+    aliases:
+      - bcbet
+
