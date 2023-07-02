@@ -1,5 +1,5 @@
 name: BetterCommands2
-version: 0.4
+version: 1.1
 main: net.bettercommands.BetterCommands2
 api-version: 1.19
 commands:
@@ -10,4 +10,28 @@ commands:
   BChelp:
     description: Help for this plugin
     usage: /<command>
-    aliases: [helpforBC]
+    aliases: [helpforbc]
+  heal:
+    description: Heals you or another player if provided
+    usage: /<command>
+    aliases: [bcheal]
+  gmc:
+    description: Sets your gamemode another player's if provided to creative
+    usage: /<command>
+    aliases: [bcgmc]
+  gma:
+      description: Sets your gamemode another player's if provided to adventure
+      usage: /<command>
+      aliases: [bcgma]
+  gms:
+        description: Sets your gamemode another player's if provided to survival
+        usage: /<command>
+        aliases: [bcgms]
+  gmsp:
+    description: Sets your gamemode another player's if provided to spectator
+    usage: /<command>
+    aliases: [bcgmsp]
+  fly:
+    description: Allows you to fly
+    usage: /<command>
+    aliases: [bcfly]
