@@ -1,0 +1,52 @@
+name: vmnetwork
+version: '1.0'
+main: cz.vmnetwork.Vmnetwork
+api-version: 1.19
+commands:
+  cleanchat:
+    description: "vyčistí chat"
+    usage: /<command>
+    aliases:
+      - cchat
+
+  lobby:
+    description: "Portne tě na lobby"
+    usage: /<command>
+    aliases:
+      - hub
+      - gotolobby
+  survival:
+    description: "Portne tě na survival"
+    usage: /<command>
+    aliases:
+      - surv
+      - gotosurv
+      - gotosurvival
+  oneblock:
+    description: "Portne tě na oneblock"
+    usage: /<command>
+    aliases:
+      - oneb
+      - gotooneb
+      - gotooneblock
+  minihry:
+    description: "Portne tě na minihry"
+    usage: /<command>
+    aliases:
+      - minigames
+      - gotominigames
+      - gotomg
+  getip:
+    description: "Dá ti IP adresu zadaného hráče"
+    usage: /<command>
+    aliases:
+      -   gip
+      -   getipadrress
+      -   gadrress
+  shutdownserver:
+    description: "Vypne server za 30 minut"
+    usage:  /<command>
+    aliases:
+      - 30toshutdown
+      - timedstop
+      - 30minutesstop
