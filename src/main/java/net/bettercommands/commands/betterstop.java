@@ -28,7 +28,6 @@ public class betterstop implements CommandExecutor{
             else
             {
                 int timebeforestop = Integer.parseInt(args[0]);
-                String timebeforestopstring = Integer.toString(timebeforestop);
                 if(timebeforestop < 10000)
                 {
                  Bukkit.broadcastMessage("You cant use number smaller than 10000!");
@@ -39,7 +38,9 @@ public class betterstop implements CommandExecutor{
                 }
                 else
                 {
-                    Command.broadcastCommandMessage(sender, "Server will be shutted down in" + timebeforestopstring + "ms!");
+                    int timebeforestopsecs = timebeforestop / 1000;
+                    string timebeforestopsecsstring = Integer.toString(timebeforestopsecs);
+                    Command.broadcastCommandMessage(sender, "Server will be shutted down in" + timebeforestopsecsstring + " seconds!");
                     try {
                         Thread.sleep(timebeforestop);
                     } catch (InterruptedException e) {
