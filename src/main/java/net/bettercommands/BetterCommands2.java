@@ -12,7 +12,6 @@ public final class BetterCommands2 extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         super.onEnable();
-        PermissionNode permnode = PermissionNode.builder("bcmd.fly").build();
         getCommand("BChelp").setExecutor(new helpforthis());
         getCommand("betterstop").setExecutor(new betterstop());
         getCommand("heal").setExecutor(new heal());
